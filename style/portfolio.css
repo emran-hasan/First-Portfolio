@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    padding: 16px 35px;
+}
+.header{
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom, left;
+
+}
+   
+
+/*--------------------- Navbar style -------------*/
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 61px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px; 
+}
+/* Banner start */
+.banner{
+    margin: 90px 200px;
+    display: flex;
+    align-items: center;
+    
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.btn-contact{
+    height: 64px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #FD6E0A;
+    padding: 16px 35px;
+    margin-left: 30px;
+}
+
+/* ------------About Section------------------ */
+
+main{
+max-width: 1140px;
+margin: 0 auto;
+}
+.about{
+    margin: 130px 0;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+
+}
+.section-title{
+    text-align: center;
+    padding-bottom:30px;
+    font-weight: 800;
+    font-size: 35px;
+    color: #181818;
+
+}
+.about-desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    margin-bottom: 30px;
+}
+table > th,td{
+    margin-left: 900px;
+    
+}
+/* -------------about info section----- */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{ 
+    text-align: center;
+}
+.info-title{
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+.info-des{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
