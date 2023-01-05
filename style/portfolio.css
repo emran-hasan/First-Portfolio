@@ -207,4 +207,33 @@ img{
 text-align: center;
 margin-bottom: 110px;
 }
+/* ------------form section---------- */
+.footer{
+    background: #FFF8F3;
+}
+.form-container{
+    display: flex;
+    gap: 116px; 
+    
+    padding: 130px 200px;
+}
+.form-container .section-title{
+    text-align: left;
+}
+.form-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.form-content input[type="text"], input[type="email"],textarea{
+    width: 100%;
+    margin-bottom: 24px;
+    border: 0;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+    
+}
 
