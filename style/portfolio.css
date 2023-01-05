@@ -33,7 +33,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 200px;
+    padding: 50px 200px;
 }
 nav ul{
     display: flex;
@@ -214,7 +214,6 @@ margin-bottom: 110px;
 .form-container{
     display: flex;
     gap: 116px; 
-    
     padding: 130px 200px;
 }
 .form-container .section-title{
